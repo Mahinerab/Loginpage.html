@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Amazon </title>
+</head>
+<body>
+
+    
+    <div class="navbar">
+        <div class="nav-bar1">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon Logo" class="logo">
+            <p>Delivering to Navi Mumbai 400703</p>
+            <a href="#">Update location</a>
+        </div>
+        
+        <div class="nav-bar2">
+                <input type="text" placeholder="Search Amazon.in">
+                <button type="submit">Search</button>
+        
+        </div>
+
+        <div class="nav-bar3">
+            <a href="#">Sign in</a>
+            <a href="#">Orders</a>
+            <a href="#">Cart</a>
+        </div>
+    </div>
+
+    <div class="list">
+        <a href="#">All</a>
+        <a href="#">home</a>
+        <a href="#">about</a>
+        <a href="#">Electronics</a>
+        <a href="#">Fashion</a>
+    </div>
+
+</body>
+<style>
+   
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #232F3E;
+    color: white;
+    padding: 10px;
+}
+
+
+.nav-bar1 {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    margin-right: 10px;
+}
+
+.nav-bar1 p, 
+.nav-bar1 a {
+    margin-left: 10px;
+}
+
+
+.nav-bar2 {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+select, 
+input {
+    padding: 5px;
+    border: none;
+    outline: none;
+}
+
+input {
+    width: 550px;
+}
+
+button {
+    background-color: #febd69;
+    border: none;
+    padding: 5px 10px;
+
+}
+
+
+.nav-bar3 {
+    margin-left: 15px;
+    margin-right: 18px;
+    color: white;
+}
+
+
+.list {
+    background-color: #37475A;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.list a {
+    color: white;
+}
+
+</style>
+</html>
